@@ -1,0 +1,132 @@
+/* chatbot.module.css */
+/* .main{
+  background-color: rgb(223, 161, 161);
+} */
+.chatContainer {
+    width: 380px;
+    margin: 50px auto;
+    border-radius: 15px;
+    background-color: #d8bbbb;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .chatBox {
+    height: 400px;
+    overflow-y: auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #ecc0c0, #817d7d00);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .message {
+    max-width: 80%;
+    padding: 12px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  .bot {
+    background-color: #fffefd;
+    align-self: flex-start;
+    color: #1f0c07;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .user {
+    background-color: #e0e0e0;
+    align-self: flex-end;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .botAvatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .inputBox {
+    display: flex;
+    gap: 10px;
+    padding: 12px;
+    background-color: #f4f4f4;
+    border-top: 1px solid #ddd;
+  }
+  
+  .input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sendButton {
+    background-color: #371c17;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(232, 195, 195, 0.1);
+  }
+  
+  .sendButton:hover {
+    background-color: #b0756c;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+/* navbar.module.css */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to left, #6c4f3c, #492624);
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navLinks a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .navLinks a:hover {
+    color: #e5d79f;
+  }
+    
